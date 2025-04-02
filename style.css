@@ -1,0 +1,78 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f0f0f0, #e8e8e8);
+    color: #333;
+}
+
+.header-container {
+    text-align: center;
+    padding: 40px 0;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
+    max-width: 960px;
+    margin: 40px auto;
+}
+
+.grocery-section {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 30px;
+}
+
+.section-header {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    color: #333;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.product-image {
+    width: 180px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.item-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.item-list li {
+    padding: 10px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.item-list li:last-child {
+    border-bottom: none;
+}
+
+.item-name {
+    font-weight: 500;
+}
+
+.footer-container {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+    color: #666;
+    margin-top: 40px;
+}
